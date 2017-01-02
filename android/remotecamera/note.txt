@@ -1,0 +1,19 @@
+1、通常控件的可见与不可见分为三种情况。
+    android:visibility="gone"       表示不可见并且不占用空间
+    android:visibility="visible"    表示可见
+    android:visibility="invisible"  表示不可见但是占用空间
+    
+2、屏幕旋转时，activity会被销毁，并重新绘制
+
+3、ListView 中如果使用了 SimpleAdapter 自定义布局的话，如果自定义布局中
+保护 Button 等控件时，Button会抢占 ListView 的焦点。所以，在 Button 等
+控件的xml中，增加 android:focusable="false" 来解决这个问题。
+      如果想监听 ListView 的 item 中的  Button 等控件的相关事件，可以自己
+ 写 Adapter 来继承 BaseAdapter 通过重写其中的 getView 方法，Button 控件的事件监听。
+
+4、对于一个没有被载入或者想要动态载入的界面，都需要通过 R.layout.xxx 使用LayoutInflater.inflate()来载入，从而得到一个 view 
+      对于一个已经载入的界面，就可以通过 R.id.xxx 使用 Activiyt.findViewById() 方法来获得其中的界面元素，从而得到具体 widget 控件(如:Button、TextView 等)
+      获得 LayoutInflater 实例的三种方式
+     1. LayoutInflater inflater = getLayoutInflater(); //调用Activity的getLayoutInflater() 
+     2. LayoutInflater inflater = LayoutInflater.from(context);  
+     3. LayoutInflater inflater =  (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

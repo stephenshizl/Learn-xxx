@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+ <!--note
+    1、button 上的英文字符会自动转换为全大写，可以用 android:textAllCaps="false" 修正 
+    2、android:adjustViewBounds 图片自适应。需要与maxWidth、MaxHeight一起使用，否则单独使用没有效果
+    3、android:scaleType="fitXY" 图片自适应
+ --> 
+
+    <ImageView 
+        android:id="@+id/main_title_show"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:src="@drawable/canvas2_1"
+        android:scaleType="fitXY" />
+     
+    <TableLayout
+        android:id="@+id/main_table_layout"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:layout_width="match_parent" >
+        
+        <TableRow
+            android:id="@+id/table_row_1"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_width="match_parent" >
+            <Button
+                android:id="@+id/button_local_camera"
+                android:text="@string/start_local_camera"
+                android:textAllCaps="false"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:background="@color/lightpink" />
+           <Button
+                android:id="@+id/button_remote_camera"
+                android:text="@string/start_remote_camera"
+                android:textAllCaps="false"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:background="@color/mistyrose" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/table_row_2"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_width="match_parent" >
+            <Button
+                android:id="@+id/button_create_hotspot"
+                android:text="@string/create_hotspot"
+                android:textAllCaps="false"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:background="@color/bisque" />
+            <Button
+                android:id="@+id/button_connect_hotspot"
+                android:text="@string/connect_hotspot"
+                android:textAllCaps="false"
+                android:layout_height="match_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:background="@color/floralwhite" />
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>
