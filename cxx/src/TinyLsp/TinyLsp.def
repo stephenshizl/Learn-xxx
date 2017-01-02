@@ -1,0 +1,4 @@
+LIBRARY	"TinyLsp"
+EXPORTS   
+    WSPStartup
+    GetLspGuid

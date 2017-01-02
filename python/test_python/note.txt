@@ -1,0 +1,14 @@
+文件头部添加：# coding: UTF-8，指明当前文件中使用的常量字符串的字符编码
+
+获得/设置系统的缺省编码 
+sys.getdefaultencoding() 
+
+获得文件系统的文件名的编码 
+sys.getfilesystemencoding() 
+
+获得当前终端的输入、输出编码 
+sys.stdout.encoding 
+sys.stdin.encoding 
+
+isinstance(s, str) 用来判断是否为一般字符串 
+isinstance(s, unicode) 用来判断是否为unicode 
