@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/animations/animations.iml" filepath="$PROJECT_DIR$/animations/animations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatwin/floatwin.iml" filepath="$PROJECT_DIR$/floatwin/floatwin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notifications/notifications.iml" filepath="$PROJECT_DIR$/notifications/notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studio.iml" filepath="$PROJECT_DIR$/studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testAsyncTask/testAsyncTask.iml" filepath="$PROJECT_DIR$/testAsyncTask/testAsyncTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testAutotestSelfApk/testAutotestSelfApk.iml" filepath="$PROJECT_DIR$/testAutotestSelfApk/testAutotestSelfApk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testAutotestSysCamera/testAutotestSysCamera.iml" filepath="$PROJECT_DIR$/testAutotestSysCamera/testAutotestSysCamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testContentProvider/testContentProvider.iml" filepath="$PROJECT_DIR$/testContentProvider/testContentProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testCrashHandler/testCrashHandler.iml" filepath="$PROJECT_DIR$/testCrashHandler/testCrashHandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testFastJson/testFastJson.iml" filepath="$PROJECT_DIR$/testFastJson/testFastJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testIntent/testIntent.iml" filepath="$PROJECT_DIR$/testIntent/testIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJNI/testJNI.iml" filepath="$PROJECT_DIR$/testJNI/testJNI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJunit/testJunit.iml" filepath="$PROJECT_DIR$/testJunit/testJunit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testPreferenceActivity/testPreferenceActivity.iml" filepath="$PROJECT_DIR$/testPreferenceActivity/testPreferenceActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testService/testService.iml" filepath="$PROJECT_DIR$/testService/testService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTaskMode/testTaskMode.iml" filepath="$PROJECT_DIR$/testTaskMode/testTaskMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testViewAnimator/testViewAnimator.iml" filepath="$PROJECT_DIR$/testViewAnimator/testViewAnimator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testViewPager/testViewPager.iml" filepath="$PROJECT_DIR$/testViewPager/testViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testXML/testXML.iml" filepath="$PROJECT_DIR$/testXML/testXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testbroadcastreceiver/testbroadcastreceiver.iml" filepath="$PROJECT_DIR$/testbroadcastreceiver/testbroadcastreceiver.iml" />
+    </modules>
+  </component>
+</project>

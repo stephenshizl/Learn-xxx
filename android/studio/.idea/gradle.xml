@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animations" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/floatwin" />
+            <option value="$PROJECT_DIR$/notifications" />
+            <option value="$PROJECT_DIR$/testAsyncTask" />
+            <option value="$PROJECT_DIR$/testAutotestSelfApk" />
+            <option value="$PROJECT_DIR$/testAutotestSysCamera" />
+            <option value="$PROJECT_DIR$/testContentProvider" />
+            <option value="$PROJECT_DIR$/testCrashHandler" />
+            <option value="$PROJECT_DIR$/testFastJson" />
+            <option value="$PROJECT_DIR$/testIntent" />
+            <option value="$PROJECT_DIR$/testJNI" />
+            <option value="$PROJECT_DIR$/testJunit" />
+            <option value="$PROJECT_DIR$/testPreferenceActivity" />
+            <option value="$PROJECT_DIR$/testService" />
+            <option value="$PROJECT_DIR$/testTaskMode" />
+            <option value="$PROJECT_DIR$/testViewAnimator" />
+            <option value="$PROJECT_DIR$/testViewPager" />
+            <option value="$PROJECT_DIR$/testXML" />
+            <option value="$PROJECT_DIR$/testbroadcastreceiver" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
